@@ -3,39 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>【2026年最新】本当に会える優良出会いサイト比較ランキング | Match Guide</title>
-    <meta name="description" content="20代〜30代に人気の大手優良マッチング・出会いサイトを徹底比較。即日出会えるサイトからサクラなしの安全サイトまで厳選解説。">
-
+    <title>【2026年最新】PCMAX・ワクワク・イククル徹底比較！本当に会える優良出会いサイトTOP3</title>
+    
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&family=Noto+Serif+JP:wght@500;600;700&display=swap" rel="stylesheet">
-
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Noto+Serif+JP:wght@600;700&family=Jost:wght@400;500;600&display=swap" rel="stylesheet">
+    
     <!-- Tailwind CSS CDN -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
         tailwind.config = {
             theme: {
                 extend: {
-                    colors: {
-                        bgMain: '#FDFBF7',
-                        bgCard: '#FFFFFF',
-                        bgSub: '#F5F2EB',
-                        textMain: '#2B2523',
-                        textMuted: '#6E6764',
-                        accentCoral: '#E07A5F',
-                        accentCoralHover: '#C8654B',
-                        accentOlive: '#6B705C',
-                        accentGold: '#D4A373',
-                        borderSoft: '#E6E2DB'
-                    },
                     fontFamily: {
                         sans: ['"Noto Sans JP"', 'sans-serif'],
                         serif: ['"Noto Serif JP"', 'serif'],
                         en: ['"Jost"', 'sans-serif']
                     },
-                    borderRadius: {
-                        '4xl': '2rem'
+                    colors: {
+                        base: '#FDFBF7', // Warm Ivory
+                        card: '#FFFFFF',
+                        accent: '#E07A5F', // Muted Coral
+                        accentDark: '#C8654B',
+                        sub: '#CCD5AE', // Muted Olive/Sage
+                        textMain: '#3D342E', // Dark Mocha
+                        textSub: '#6B6662',
+                        borderLight: '#E8E4DE'
                     }
                 }
             }
@@ -45,709 +39,374 @@
     <style>
         body {
             background-color: #FDFBF7;
-            color: #2B2523;
+            color: #3D342E;
             font-feature-settings: "palt";
             -webkit-font-smoothing: antialiased;
+            letter-spacing: 0.04em;
         }
 
-        /* アニメーション用スタイル */
-        .reveal-element {
-            opacity: 0;
-            transform: translateY(24px);
-            transition: opacity 0.8s cubic-bezier(0.19, 1, 0.22, 1), transform 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+        .h1-fluid { font-size: 32px; line-height: 1.2; }
+        .h2-fluid { font-size: 24px; line-height: 1.3; }
+        .body-fluid { font-size: 15px; line-height: 1.8; }
+        @media (min-width: 768px) {
+            .h1-fluid { font-size: 56px; }
+            .h2-fluid { font-size: 40px; }
+            .body-fluid { font-size: 17px; }
         }
-        .reveal-element.is-visible {
+
+        .reveal {
+            opacity: 0;
+            transform: translateY(30px);
+            transition: opacity 1000ms cubic-bezier(0.19, 1, 0.22, 1), transform 1000ms cubic-bezier(0.19, 1, 0.22, 1);
+        }
+        .reveal.visible {
             opacity: 1;
             transform: translateY(0);
         }
 
-        /* モーション軽減モード対応 */
-        @media (prefers-reduced-motion: reduce) {
-            .reveal-element {
-                opacity: 1 !important;
-                transform: none !important;
-                transition: none !important;
-            }
+        .glass-nav {
+            background: rgba(253, 251, 247, 0.85);
+            backdrop-filter: blur(8px);
+            -webkit-backdrop-filter: blur(8px);
         }
 
-        /* ガラスモフィズム演出 */
-        .glass-card {
-            background: rgba(255, 255, 255, 0.88);
-            backdrop-filter: blur(12px);
-            -webkit-backdrop-filter: blur(12px);
+        .cta-button {
+            transition: all 300ms cubic-bezier(0.19, 1, 0.22, 1);
         }
-        
-        .faq-answer {
-            max-height: 0;
-            overflow: hidden;
-            transition: max-height 0.35s ease-out, opacity 0.25s ease-out;
-            opacity: 0;
+        .cta-button:hover {
+            transform: translateY(-2px) scale(1.02);
+            box-shadow: 0 10px 20px -5px rgba(224, 122, 95, 0.4);
         }
-        .faq-answer.open {
-            max-height: 500px;
-            opacity: 1;
+
+        .ranking-number {
+            font-family: 'Jost', sans-serif;
+            font-weight: 600;
+            font-style: italic;
         }
     </style>
 </head>
-<body class="font-sans antialiased text-textMain bg-bgMain pb-20 md:pb-0">
+<body class="font-sans body-fluid">
 
-    <!-- Header Navigation -->
-    <header class="sticky top-0 z-50 glass-card border-b border-borderSoft/60 transition-all duration-300">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 h-16 flex items-center justify-between">
-            <a href="#" class="flex items-center gap-2 group">
-                <span class="w-8 h-8 rounded-full bg-accentCoral flex items-center justify-center text-white font-en font-bold text-sm shadow-sm group-hover:scale-105 transition-transform">M</span>
-                <span class="font-serif font-bold text-lg sm:text-xl text-textMain tracking-tight">Match Guide<span class="text-accentCoral">.</span></span>
+    <!-- Navigation -->
+    <nav class="fixed top-0 w-full z-50 glass-nav border-b border-borderLight h-16 sm:h-20 flex items-center">
+        <div class="max-w-7xl mx-auto px-6 w-full flex justify-between items-center">
+            <div class="font-serif font-bold text-xl sm:text-2xl tracking-tighter">
+                Match<span class="text-accent italic">Expert.</span>
+            </div>
+            <div class="hidden md:flex gap-10 text-xs font-bold tracking-widest text-textSub uppercase">
+                <a href="#ranking" class="hover:text-accent transition-colors">Ranking</a>
+                <a href="#comparison" class="hover:text-accent transition-colors">Compare</a>
+                <a href="#guide" class="hover:text-accent transition-colors">Strategy</a>
+            </div>
+            <a href="#ranking" class="bg-textMain text-white px-6 py-2.5 rounded-full text-xs font-bold hover:bg-accent transition-all">
+                ランキングを見る
             </a>
-            <nav class="hidden md:flex items-center gap-6 text-xs sm:text-sm font-medium text-textMuted">
-                <a href="#ranking" class="hover:text-accentCoral transition-colors">おすすめランキング</a>
-                <a href="#comparison" class="hover:text-accentCoral transition-colors">3大サイト比較表</a>
-                <a href="#purpose" class="hover:text-accentCoral transition-colors">目的別ナビ</a>
-                <a href="#guide" class="hover:text-accentCoral transition-colors">初心者安全ガイド</a>
-                <a href="#faq" class="hover:text-accentCoral transition-colors">よくある質問</a>
-            </nav>
-            <a href="#ranking" class="inline-flex items-center justify-center px-4 py-2 rounded-full bg-accentCoral text-white text-xs sm:text-sm font-bold shadow-md hover:bg-accentCoralHover transition-colors">
-                厳選TOP3を見る
-            </a>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="relative pt-32 pb-20 sm:pt-48 sm:pb-32 overflow-hidden bg-base">
+        <div class="max-w-7xl mx-auto px-6 relative z-10">
+            <div class="grid lg:grid-cols-2 gap-16 items-center">
+                <div class="reveal">
+                    <span class="inline-block py-1.5 px-4 bg-sub/20 text-textMain text-[10px] sm:text-xs font-bold tracking-[0.2em] rounded-full mb-8 uppercase">
+                        2026 Edition Report
+                    </span>
+                    <h1 class="h1-fluid font-serif font-bold text-textMain mb-8 leading-[1.1]">
+                        理想の出会いは、<br>
+                        <span class="text-accent italic">"正しい場所"</span>選びから。
+                    </h1>
+                    <p class="text-textSub max-w-lg mb-12 leading-relaxed">
+                        「どこを使えばいいかわからない」という20代〜30代のあなたへ。累計利用者数、アクティブ率、安全性の3軸で、PCMAX・ワクワク・イククルの実力を徹底検証しました。
+                    </p>
+                    <div class="flex flex-wrap gap-6">
+                        <a href="#ranking" class="cta-button bg-accent text-white px-10 py-5 rounded-full font-bold shadow-lg shadow-accent/20 flex items-center gap-3">
+                            比較ランキングはこちら
+                            <span class="text-lg">↓</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="relative reveal hidden lg:block">
+                    <div class="aspect-[4/5] rounded-[60px] overflow-hidden shadow-2xl rotate-2">
+                        <img src="https://images.unsplash.com/photo-1522336572468-97b06e8ef143?q=80&w=1200&auto=format&fit=crop" alt="Hero Image" class="w-full h-full object-cover">
+                    </div>
+                    <div class="absolute -bottom-10 -left-10 bg-white p-8 rounded-3xl shadow-xl border border-borderLight max-w-xs -rotate-3">
+                        <p class="text-xs font-bold text-accent mb-3 tracking-widest uppercase">Trend info</p>
+                        <p class="text-sm font-medium leading-relaxed">
+                            今月は「PCMAX」の20代〜30代アクティブユーザーが過去最高を記録しています。
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="relative pt-8 pb-16 sm:py-24 overflow-hidden">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6">
-            <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-12 items-center">
-                
-                <!-- Hero Content -->
-                <div class="lg:col-span-7 space-y-6 text-center lg:text-left reveal-element">
-                    <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-bgSub border border-borderSoft text-xs sm:text-sm font-medium text-accentOlive">
-                        <span class="w-2 h-2 rounded-full bg-accentCoral animate-pulse"></span>
-                        2026年最新マッチング検証結果
-                    </div>
-                    
-                    <h1 class="text-2xl sm:text-4xl lg:text-5xl font-serif font-bold text-textMain leading-tight">
-                        20代〜30代が選ぶ！<br class="hidden sm:inline" />
-                        <span class="relative inline-block text-accentCoral mt-1">
-                            本当に会える優良出会いサイト
-                            <span class="absolute bottom-1 left-0 w-full h-2.5 bg-accentCoral/15 -z-10 rounded-full"></span>
-                        </span>
-                        比較ランキング
-                    </h1>
-                    
-                    <p class="text-textMuted text-sm sm:text-base leading-relaxed max-w-2xl mx-auto lg:mx-0">
-                        「どのアプリが一番出会える？」「サクラや業者がいない安全なサイトは？」<br class="hidden sm:inline" />
-                        会員数・即日マッチング率・初回無料ポイント数などを徹底検証。初心者でも安心して使える大手優良3サイトを厳選紹介！
-                    </p>
+    <!-- Ranking Section -->
+    <section id="ranking" class="py-20 sm:py-32 bg-base">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-20 reveal">
+                <h2 class="h2-fluid font-serif font-bold mb-4">優良出会いサイトランキング</h2>
+                <p class="text-textSub italic">最新の検証データに基づくベスト3</p>
+                <div class="w-16 h-1 bg-sub mx-auto mt-6"></div>
+            </div>
 
-                    <!-- Trust Badges -->
-                    <div class="pt-2 flex flex-wrap justify-center lg:justify-start gap-3 text-xs text-textMuted font-medium">
-                        <span class="px-3 py-1.5 rounded-lg bg-white border border-borderSoft shadow-sm flex items-center gap-1.5">
-                            <svg class="w-4 h-4 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                            18歳以上限定（高校生不可）
-                        </span>
-                        <span class="px-3 py-1.5 rounded-lg bg-white border border-borderSoft shadow-sm flex items-center gap-1.5">
-                            <svg class="w-4 h-4 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                            完全匿名・身バレ防止OK
-                        </span>
-                        <span class="px-3 py-1.5 rounded-lg bg-white border border-borderSoft shadow-sm flex items-center gap-1.5">
-                            <svg class="w-4 h-4 text-emerald-600" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7"></path></svg>
-                            24時間サクラ排除監視
-                        </span>
+            <div class="space-y-16">
+                <!-- Rank 1: PCMAX -->
+                <div class="bg-card rounded-[60px] p-8 sm:p-16 shadow-sm border border-borderLight reveal flex flex-col lg:flex-row gap-16 items-center relative overflow-hidden">
+                    <div class="absolute top-0 left-0 bg-accent text-white px-8 py-3 font-en font-bold text-sm tracking-widest rounded-br-3xl">RANK 01</div>
+                    <div class="lg:w-1/2 w-full">
+                        <div class="aspect-[4/3] rounded-[40px] overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1516062423079-7ca13cdc7f5a?q=80&w=1000&auto=format&fit=crop" alt="PCMAX" class="w-full h-full object-cover">
+                        </div>
                     </div>
-
-                    <!-- Hero CTA Button -->
-                    <div class="pt-4 flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
-                        <a href="#ranking" class="inline-flex items-center justify-center px-8 py-4 rounded-full bg-accentCoral text-white font-bold text-base shadow-lg shadow-accentCoral/25 hover:bg-accentCoralHover hover:scale-[1.02] active:scale-[0.98] transition-all">
-                            殿堂入りTOP3ランキングを見る
-                            <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
+                    <div class="lg:w-1/2 w-full">
+                        <h3 class="h2-fluid font-bold text-textMain mb-4">PCMAX <span class="text-base font-normal text-textSub ml-2">ピーシーマックス</span></h3>
+                        <p class="text-accent font-bold mb-8 flex items-center gap-1">
+                            ★★★★★ <span class="text-textSub text-sm ml-2">4.9 / 5.0</span>
+                        </p>
+                        <p class="text-textSub mb-10 leading-relaxed">
+                            会員数2,000万人を超える国内最大級のサービス。圧倒的なアクティブユーザー数を誇り、「今すぐ会いたい」というニーズへの対応力は業界No.1。20代〜30代の登録者が最も多く、最初の一つに最適です。
+                        </p>
+                        <div class="grid grid-cols-2 gap-6 mb-12">
+                            <div class="bg-base p-5 rounded-3xl">
+                                <span class="block text-[10px] text-accent font-bold mb-2 uppercase tracking-widest">Points</span>
+                                <span class="font-bold text-sm">無料ポイント付与あり</span>
+                            </div>
+                            <div class="bg-base p-5 rounded-3xl">
+                                <span class="block text-[10px] text-accent font-bold mb-2 uppercase tracking-widest">Feature</span>
+                                <span class="font-bold text-sm">即日マッチング率No.1</span>
+                            </div>
+                        </div>
+                        <a href="https://px.a8.net/svt/ejp?a8mat=4B9YLA+5OT6F6+YQK+60H7L" target="_blank" rel="noopener noreferrer" class="cta-button inline-flex items-center justify-center w-full sm:w-auto px-12 py-5 bg-textMain text-white rounded-full font-bold hover:bg-accent shadow-xl shadow-textMain/10">
+                            PCMAXで無料ポイントをもらう
                         </a>
                     </div>
                 </div>
 
-                <!-- Hero Image Showcase -->
-                <div class="lg:col-span-5 relative reveal-element">
-                    <div class="relative mx-auto max-w-md lg:max-w-none">
-                        <div class="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white">
-                            <img src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=1000&q=80" 
-                                 alt="カフェで出会いを楽しむカップルのイメージ写真" 
-                                 class="w-full h-80 sm:h-96 object-cover transform hover:scale-105 transition-transform duration-700" 
-                                 loading="eager" />
-                        </div>
-
-                        <!-- Floating Badge -->
-                        <div class="absolute -bottom-4 -left-4 sm:-left-6 bg-white p-4 rounded-2xl shadow-xl border border-borderSoft max-w-[200px]">
-                            <div class="text-xs font-bold text-accentOlive mb-1">🎁 今月のお得情報</div>
-                            <div class="text-xs text-textMuted">無料登録で最大<span class="text-accentCoral font-bold text-sm">1,200円分</span>ポイントGET！</div>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Main Section: Ranking TOP 3 -->
-    <section id="ranking" class="py-16 sm:py-24 bg-bgSub/60 border-y border-borderSoft">
-        <div class="max-w-5xl mx-auto px-4 sm:px-6">
-            
-            <div class="text-center max-w-2xl mx-auto mb-12 sm:mb-16 reveal-element">
-                <span class="text-xs font-en tracking-widest text-accentCoral font-bold uppercase block mb-2">RECOMMENDED RANKING</span>
-                <h2 class="text-2xl sm:text-3xl font-serif font-bold text-textMain">
-                    【殿堂入り】絶対に失敗しない出会い系サイト TOP3
-                </h2>
-                <p class="text-textMuted text-sm mt-3">
-                    会員数・即出会いやすさ・安全性の3基準をすべてクリアした口コミ評価最高峰のサイトです。
-                </p>
-            </div>
-
-            <div class="space-y-12">
-
-                <!-- Rank 1: ハッピーメール -->
-                <div class="bg-bgCard rounded-3xl shadow-lg border-2 border-accentGold/40 p-6 sm:p-8 relative overflow-hidden reveal-element hover:shadow-xl transition-shadow">
-                    <div class="absolute top-0 right-0 bg-accentGold text-white font-en font-bold text-xs sm:text-sm px-6 py-2 rounded-bl-2xl shadow-sm flex items-center gap-1">
-                        <span>👑</span> RANK 1位
-                    </div>
-
-                    <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 items-center">
-                        <!-- App Image & Rating -->
-                        <div class="lg:col-span-5 text-center">
-                            <div class="relative rounded-2xl overflow-hidden mb-4 shadow-md aspect-video sm:aspect-square">
-                                <img src="https://images.unsplash.com/photo-1522543558187-768b6df7c25c?auto=format&fit=crop&w=800&q=80" 
-                                     alt="ハッピーメール イメージ画像" 
-                                     class="w-full h-full object-cover" 
-                                     loading="lazy" />
-                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end justify-start p-4 text-white text-left">
-                                    <div>
-                                        <div class="text-xs opacity-90 font-medium">国内最大級のマッチングサイト</div>
-                                        <div class="text-xl sm:text-2xl font-serif font-bold">ハッピーメール</div>
-                                    </div>
-                                </div>
-                            </div>
-                            
-                            <!-- Rating -->
-                            <div class="inline-flex items-center gap-2 px-4 py-2 bg-bgSub rounded-full border border-borderSoft">
-                                <span class="text-accentGold text-lg">★★★★★</span>
-                                <span class="font-bold text-textMain text-sm">4.9 / 5.0</span>
-                            </div>
-                        </div>
-
-                        <!-- App Info -->
-                        <div class="lg:col-span-7 space-y-4">
-                            <div class="flex flex-wrap gap-2">
-                                <span class="px-2.5 py-1 rounded-md bg-rose-50 text-accentCoral text-xs font-bold border border-rose-200">累計3,000万人突破</span>
-                                <span class="px-2.5 py-1 rounded-md bg-amber-50 text-amber-700 text-xs font-bold border border-amber-200">最大120PT無料プレゼント</span>
-                                <span class="px-2.5 py-1 rounded-md bg-emerald-50 text-emerald-700 text-xs font-bold border border-emerald-200">20代〜30代に大人気</span>
-                            </div>
-
-                            <h3 class="text-xl sm:text-2xl font-serif font-bold text-textMain leading-snug">
-                                ハッピーメール（HAPPY MAIL）
-                            </h3>
-
-                            <p class="text-textMuted text-sm leading-relaxed">
-                                圧倒的な知名度と国内最大級の会員数を誇るマッチングサイトの絶対王者。日本全国どこに住んでいても圧倒的にマッチングしやすく、「今夜会いたい」「近所でデートしたい」という即日重視の20代〜30代から絶大な支持を集めています。
-                            </p>
-
-                            <div class="bg-bgSub p-4 rounded-2xl border border-borderSoft/80 space-y-2 text-xs sm:text-sm">
-                                <div class="flex justify-between border-b border-borderSoft/60 pb-1.5">
-                                    <span class="text-textMuted font-medium">会員層・年齢層</span>
-                                    <span class="font-bold text-textMain">20代〜30代前半メイン（男女比 5:5）</span>
-                                </div>
-                                <div class="flex justify-between border-b border-borderSoft/60 pb-1.5">
-                                    <span class="text-textMuted font-medium">初回無料ポイント</span>
-                                    <span class="font-bold text-accentCoral">最大 1,200円分（120PT）</span>
-                                </div>
-                                <div class="flex justify-between">
-                                    <span class="text-textMuted font-medium">女性の利用料金</span>
-                                    <span class="font-bold text-emerald-600">完全無料</span>
-                                </div>
-                            </div>
-
-                            <!-- CTA Button 1 -->
-                            <div class="pt-2">
-                                <a href="https://example.com/happymail" target="_blank" rel="noopener noreferrer" 
-                                   class="group w-full inline-flex items-center justify-center px-6 py-4 rounded-2xl bg-accentCoral text-white font-bold text-base shadow-md hover:bg-accentCoralHover hover:scale-[1.01] active:scale-[0.99] transition-all">
-                                    <span>ハッピーメール公式で無料ポイントをもらう</span>
-                                    <svg class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-                                </a>
-                                <p class="text-[11px] text-center text-textMuted mt-1.5">※女性は完全無料 / 男性も無料ポイント内で気軽にお試しOK</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
                 <!-- Rank 2: ワクワクメール -->
-                <div class="bg-bgCard rounded-3xl shadow-lg border border-borderSoft p-6 sm:p-8 relative overflow-hidden reveal-element hover:shadow-xl transition-shadow">
-                    <div class="absolute top-0 right-0 bg-slate-700 text-white font-en font-bold text-xs sm:text-sm px-6 py-2 rounded-bl-2xl shadow-sm flex items-center gap-1">
-                        <span>🥈</span> RANK 2位
+                <div class="bg-card rounded-[60px] p-8 sm:p-16 shadow-sm border border-borderLight reveal flex flex-col lg:flex-row-reverse gap-16 items-center relative overflow-hidden">
+                    <div class="absolute top-0 right-0 bg-sub text-textMain px-8 py-3 font-en font-bold text-sm tracking-widest rounded-bl-3xl">RANK 02</div>
+                    <div class="lg:w-1/2 w-full">
+                        <div class="aspect-[4/3] rounded-[40px] overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1517048676732-d65bc937f952?q=80&w=1000&auto=format&fit=crop" alt="ワクワクメール" class="w-full h-full object-cover">
+                        </div>
                     </div>
-
-                    <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 items-center">
-                        <!-- App Image & Rating -->
-                        <div class="lg:col-span-5 text-center">
-                            <div class="relative rounded-2xl overflow-hidden mb-4 shadow-md aspect-video sm:aspect-square">
-                                <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&w=800&q=80" 
-                                     alt="ワクワクメール イメージ画像" 
-                                     class="w-full h-full object-cover" 
-                                     loading="lazy" />
-                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end justify-start p-4 text-white text-left">
-                                    <div>
-                                        <div class="text-xs opacity-90 font-medium">デザインとおしゃれさ・安全性重視</div>
-                                        <div class="text-xl sm:text-2xl font-serif font-bold">ワクワクメール</div>
-                                    </div>
-                                </div>
+                    <div class="lg:w-1/2 w-full">
+                        <h3 class="h2-fluid font-bold text-textMain mb-4">ワクワクメール <span class="text-base font-normal text-textSub ml-2">Wakuwaku Mail</span></h3>
+                        <p class="text-accent font-bold mb-8 flex items-center gap-1">
+                            ★★★★★ <span class="text-textSub text-sm ml-2">4.7 / 5.0</span>
+                        </p>
+                        <p class="text-textSub mb-10 leading-relaxed">
+                            運営実績20年以上の老舗。業界初の「セルフィー認証」を導入するなど、安全対策に最も力を入れています。クリーンなイメージから一般女性会員が多く、誠実な出会いを求める層に根強い人気です。
+                        </p>
+                        <div class="grid grid-cols-2 gap-6 mb-12">
+                            <div class="bg-base p-5 rounded-3xl">
+                                <span class="block text-[10px] text-accent font-bold mb-2 uppercase tracking-widest">Points</span>
+                                <span class="font-bold text-sm">無料ポイント特典あり</span>
                             </div>
-                            
-                            <!-- Rating -->
-                            <div class="inline-flex items-center gap-2 px-4 py-2 bg-bgSub rounded-full border border-borderSoft">
-                                <span class="text-accentGold text-lg">★★★★☆</span>
-                                <span class="font-bold text-textMain text-sm">4.7 / 5.0</span>
+                            <div class="bg-base p-5 rounded-3xl">
+                                <span class="block text-[10px] text-accent font-bold mb-2 uppercase tracking-widest">Safety</span>
+                                <span class="font-bold text-sm">業者排除システム完備</span>
                             </div>
                         </div>
-
-                        <!-- App Info -->
-                        <div class="lg:col-span-7 space-y-4">
-                            <div class="flex flex-wrap gap-2">
-                                <span class="px-2.5 py-1 rounded-md bg-rose-50 text-accentCoral text-xs font-bold border border-rose-200">創業20年以上の実績</span>
-                                <span class="px-2.5 py-1 rounded-md bg-blue-50 text-blue-700 text-xs font-bold border border-blue-200">セルフィー認証で安心</span>
-                                <span class="px-2.5 py-1 rounded-md bg-amber-50 text-amber-700 text-xs font-bold border border-amber-200">50PT無料進呈</span>
-                            </div>
-
-                            <h3 class="text-xl sm:text-2xl font-serif font-bold text-textMain leading-snug">
-                                ワクワクメール（ワクワク）
-                            </h3>
-
-                            <p class="text-textMuted text-sm leading-relaxed">
-                                徹底したサクラ排除・業者対策（顔写真認証・24時間監視）を導入している安全第一のマッチングサイト。洗練されたアプリ風デザインで女性からの人気が高く、「業者に邪魔されたくない」「安全におしゃれな恋活がしたい」という方にぴったり。
-                            </p>
-
-                            <div class="bg-bgSub p-4 rounded-2xl border border-borderSoft/80 space-y-2 text-xs sm:text-sm">
-                                <div class="flex justify-between border-b border-borderSoft/60 pb-1.5">
-                                    <span class="text-textMuted font-medium">会員層・年齢層</span>
-                                    <span class="font-bold text-textMain">20代中盤〜30代（清潔感のあるユーザー多数）</span>
-                                </div>
-                                <div class="flex justify-between border-b border-borderSoft/60 pb-1.5">
-                                    <span class="text-textMuted font-medium">初回無料ポイント</span>
-                                    <span class="font-bold text-accentCoral">初回登録で 500円分（50PT）</span>
-                                </div>
-                                <div class="flex justify-between">
-                                    <span class="text-textMuted font-medium">女性の利用料金</span>
-                                    <span class="font-bold text-emerald-600">完全無料</span>
-                                </div>
-                            </div>
-
-                            <!-- CTA Button 2 -->
-                            <div class="pt-2">
-                                <a href="https://example.com/wakuwaku" target="_blank" rel="noopener noreferrer" 
-                                   class="group w-full inline-flex items-center justify-center px-6 py-4 rounded-2xl bg-accentOlive text-white font-bold text-base shadow-md hover:bg-slate-700 hover:scale-[1.01] active:scale-[0.99] transition-all">
-                                    <span>ワクワクメール公式で安全に始める</span>
-                                    <svg class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-                                </a>
-                                <p class="text-[11px] text-center text-textMuted mt-1.5">※無料ポイント付き / Web＆アプリ両方対応</p>
-                            </div>
-                        </div>
+                        <a href="https://px.a8.net/svt/ejp?a8mat=4B9YLA+5QLH8I+1KZ4+601S2" target="_blank" rel="noopener noreferrer" class="cta-button inline-flex items-center justify-center w-full sm:w-auto px-12 py-5 bg-sub text-textMain rounded-full font-bold hover:bg-accent shadow-xl shadow-sub/20">
+                            ワクワクで無料ポイントをもらう
+                        </a>
                     </div>
                 </div>
 
-                <!-- Rank 3: 華の会メール -->
-                <div class="bg-bgCard rounded-3xl shadow-lg border border-borderSoft p-6 sm:p-8 relative overflow-hidden reveal-element hover:shadow-xl transition-shadow">
-                    <div class="absolute top-0 right-0 bg-amber-700 text-white font-en font-bold text-xs sm:text-sm px-6 py-2 rounded-bl-2xl shadow-sm flex items-center gap-1">
-                        <span>🥉</span> RANK 3位
+                <!-- Rank 3: イククル -->
+                <div class="bg-card rounded-[60px] p-8 sm:p-16 shadow-sm border border-borderLight reveal flex flex-col lg:flex-row gap-16 items-center relative overflow-hidden">
+                    <div class="absolute top-0 left-0 bg-borderLight text-textSub px-8 py-3 font-en font-bold text-sm tracking-widest rounded-br-3xl">RANK 03</div>
+                    <div class="lg:w-1/2 w-full">
+                        <div class="aspect-[4/3] rounded-[40px] overflow-hidden">
+                            <img src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?q=80&w=1000&auto=format&fit=crop" alt="イククル" class="w-full h-full object-cover">
+                        </div>
                     </div>
-
-                    <div class="grid grid-cols-1 lg:grid-cols-12 gap-6 sm:gap-8 items-center">
-                        <!-- App Image & Rating -->
-                        <div class="lg:col-span-5 text-center">
-                            <div class="relative rounded-2xl overflow-hidden mb-4 shadow-md aspect-video sm:aspect-square">
-                                <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?auto=format&fit=crop&w=800&q=80" 
-                                     alt="華の会メール イメージ画像" 
-                                     class="w-full h-full object-cover" 
-                                     loading="lazy" />
-                                <div class="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent flex items-end justify-start p-4 text-white text-left">
-                                    <div>
-                                        <div class="text-xs opacity-90 font-medium">大人の落ち着いた恋愛・婚活向け</div>
-                                        <div class="text-xl sm:text-2xl font-serif font-bold">華の会メール</div>
-                                    </div>
-                                </div>
+                    <div class="lg:w-1/2 w-full">
+                        <h3 class="h2-fluid font-bold text-textMain mb-4">イククル <span class="text-base font-normal text-textSub ml-2">Ikukuru</span></h3>
+                        <p class="text-accent font-bold mb-8 flex items-center gap-1">
+                            ★★★★★ <span class="text-textSub text-sm ml-2">4.5 / 5.0</span>
+                        </p>
+                        <p class="text-textSub mb-10 leading-relaxed">
+                            新規登録特典が非常に充実しており、まずは無料でメッセージ交換を試してみたいという初心者から高い支持を得ています。掲示板の更新頻度が高く、アクティブなユーザーとすぐに出会えます。
+                        </p>
+                        <div class="grid grid-cols-2 gap-6 mb-12">
+                            <div class="bg-base p-5 rounded-3xl">
+                                <span class="block text-[10px] text-accent font-bold mb-2 uppercase tracking-widest">Points</span>
+                                <span class="font-bold text-sm">豪華無料ポイント付与</span>
                             </div>
-                            
-                            <!-- Rating -->
-                            <div class="inline-flex items-center gap-2 px-4 py-2 bg-bgSub rounded-full border border-borderSoft">
-                                <span class="text-accentGold text-lg">★★★★☆</span>
-                                <span class="font-bold text-textMain text-sm">4.5 / 5.0</span>
+                            <div class="bg-base p-5 rounded-3xl">
+                                <span class="block text-[10px] text-accent font-bold mb-2 uppercase tracking-widest">User</span>
+                                <span class="font-bold text-sm">初心者向け機能が充実</span>
                             </div>
                         </div>
-
-                        <!-- App Info -->
-                        <div class="lg:col-span-7 space-y-4">
-                            <div class="flex flex-wrap gap-2">
-                                <span class="px-2.5 py-1 rounded-md bg-purple-50 text-purple-700 text-xs font-bold border border-purple-200">30代以上の大人向け</span>
-                                <span class="px-2.5 py-1 rounded-md bg-rose-50 text-accentCoral text-xs font-bold border border-rose-200">真剣な恋活・パートナー探し</span>
-                                <span class="px-2.5 py-1 rounded-md bg-amber-50 text-amber-700 text-xs font-bold border border-amber-200">1,000円分PT特典</span>
-                            </div>
-
-                            <h3 class="text-xl sm:text-2xl font-serif font-bold text-textMain leading-snug">
-                                華の会メール（HANA NO KAI）
-                            </h3>
-
-                            <p class="text-textMuted text-sm leading-relaxed">
-                                30代〜50代の大人の出会い・落ち着いた恋活に特化した老舗マッチングサイト。若いノリが苦手な方や、じっくり会話を楽しんで仲良くなりたい大人世代に圧倒的支持を受けています。
-                            </p>
-
-                            <div class="bg-bgSub p-4 rounded-2xl border border-borderSoft/80 space-y-2 text-xs sm:text-sm">
-                                <div class="flex justify-between border-b border-borderSoft/60 pb-1.5">
-                                    <span class="text-textMuted font-medium">会員層・年齢層</span>
-                                    <span class="font-bold text-textMain">30代・40代メイン（大人の恋愛特化）</span>
-                                </div>
-                                <div class="flex justify-between border-b border-borderSoft/60 pb-1.5">
-                                    <span class="text-textMuted font-medium">初回無料ポイント</span>
-                                    <span class="font-bold text-accentCoral">新規登録で 1,000円分（100PT）</span>
-                                </div>
-                                <div class="flex justify-between">
-                                    <span class="text-textMuted font-medium">女性の利用料金</span>
-                                    <span class="font-bold text-emerald-600">完全無料</span>
-                                </div>
-                            </div>
-
-                            <!-- CTA Button 3 -->
-                            <div class="pt-2">
-                                <a href="https://example.com/hananokai" target="_blank" rel="noopener noreferrer" 
-                                   class="group w-full inline-flex items-center justify-center px-6 py-4 rounded-2xl bg-stone-700 text-white font-bold text-base shadow-md hover:bg-stone-800 hover:scale-[1.01] active:scale-[0.99] transition-all">
-                                    <span>華の会メール公式で大人マッチングを試す</span>
-                                    <svg class="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M14 5l7 7m0 0l-7 7m7-7H3"></path></svg>
-                                </a>
-                                <p class="text-[11px] text-center text-textMuted mt-1.5">※大人の出会いを求める20代後半〜30代以降に推奨</p>
-                            </div>
-                        </div>
+                        <a href="https://px.a8.net/svt/ejp?a8mat=4B9YLA+5N0VLU+22QA+61RI9" target="_blank" rel="noopener noreferrer" class="cta-button inline-flex items-center justify-center w-full sm:w-auto px-12 py-5 border border-textMain text-textMain rounded-full font-bold hover:bg-textMain hover:text-white transition-all">
+                            イククルで無料ポイントをもらう
+                        </a>
                     </div>
                 </div>
-
             </div>
         </div>
     </section>
 
     <!-- Comparison Table Section -->
-    <section id="comparison" class="py-16 sm:py-24 bg-bgMain">
-        <div class="max-w-5xl mx-auto px-4 sm:px-6">
-            <div class="text-center max-w-2xl mx-auto mb-12 reveal-element">
-                <span class="text-xs font-en tracking-widest text-accentCoral font-bold uppercase block mb-2">QUICK COMPARISON</span>
-                <h2 class="text-2xl sm:text-3xl font-serif font-bold text-textMain">
-                    一目でわかる！人気3大サイト徹底比較表
-                </h2>
-                <p class="text-textMuted text-sm mt-3">
-                    気になるポイントを比較して、あなたにピッタリのサイトを選んでみてください。
+    <section id="comparison" class="py-20 sm:py-32 bg-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="text-center mb-20 reveal">
+                <h2 class="h2-fluid font-serif font-bold mb-4">3大サイト徹底比較表</h2>
+                <p class="text-textSub italic">一目でわかるスペックの違い</p>
+            </div>
+            
+            <div class="overflow-x-auto reveal shadow-2xl rounded-[40px] border border-borderLight">
+                <table class="w-full min-w-[800px] border-collapse bg-white">
+                    <thead>
+                        <tr class="bg-sub text-textMain">
+                            <th class="p-8 text-left font-bold border-b border-borderLight">評価項目</th>
+                            <th class="p-8 text-center font-bold border-b border-borderLight">PCMAX</th>
+                            <th class="p-8 text-center font-bold border-b border-borderLight">ワクワクメール</th>
+                            <th class="p-8 text-center font-bold border-b border-borderLight">イククル</th>
+                        </tr>
+                    </thead>
+                    <tbody class="divide-y divide-borderLight text-sm">
+                        <tr class="hover:bg-base/50 transition-colors">
+                            <td class="p-8 font-bold bg-base/30">累計会員数</td>
+                            <td class="p-8 text-center">2,000万人〜</td>
+                            <td class="p-8 text-center">1,100万人〜</td>
+                            <td class="p-8 text-center">1,500万人〜</td>
+                        </tr>
+                        <tr class="hover:bg-base/50 transition-colors">
+                            <td class="p-8 font-bold bg-base/30">メイン層</td>
+                            <td class="p-8 text-center">20代〜30代</td>
+                            <td class="p-8 text-center">20代〜30代</td>
+                            <td class="p-8 text-center">20代〜40代</td>
+                        </tr>
+                        <tr class="hover:bg-base/50 transition-colors">
+                            <td class="p-8 font-bold bg-base/30">出会える速さ</td>
+                            <td class="p-8 text-center text-accent font-bold">◎ 爆速</td>
+                            <td class="p-8 text-center font-bold">○ 平均的</td>
+                            <td class="p-8 text-center font-bold">○ 平均的</td>
+                        </tr>
+                        <tr class="hover:bg-base/50 transition-colors">
+                            <td class="p-8 font-bold bg-base/30">初回登録特典</td>
+                            <td class="p-8 text-center font-bold text-accent">無料ポイントあり</td>
+                            <td class="p-8 text-center font-bold text-accent">無料ポイントあり</td>
+                            <td class="p-8 text-center font-bold text-accent">無料ポイントあり</td>
+                        </tr>
+                        <tr class="hover:bg-base/50 transition-colors">
+                            <td class="p-8 font-bold bg-base/30">安全性</td>
+                            <td class="p-8 text-center font-bold">○ 良好</td>
+                            <td class="p-8 text-center text-accent font-bold">◎ 鉄壁</td>
+                            <td class="p-8 text-center font-bold">○ 良好</td>
+                        </tr>
+                        <tr>
+                            <td class="p-8 bg-base/30"></td>
+                            <td class="p-8 text-center">
+                                <a href="https://px.a8.net/svt/ejp?a8mat=4B9YLA+5OT6F6+YQK+60H7L" target="_blank" class="text-accent font-bold underline">公式サイト</a>
+                            </td>
+                            <td class="p-8 text-center">
+                                <a href="https://px.a8.net/svt/ejp?a8mat=4B9YLA+5QLH8I+1KZ4+601S2" target="_blank" class="text-accent font-bold underline">公式サイト</a>
+                            </td>
+                            <td class="p-8 text-center">
+                                <a href="https://px.a8.net/svt/ejp?a8mat=4B9YLA+5N0VLU+22QA+61RI9" target="_blank" class="text-accent font-bold underline">公式サイト</a>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </section>
+
+    <!-- Strategy Section -->
+    <section class="py-20 sm:py-32 bg-textMain text-white" id="guide">
+        <div class="max-w-4xl mx-auto px-6">
+            <div class="reveal">
+                <h2 class="h2-fluid font-serif font-bold mb-16 text-center underline decoration-accent underline-offset-8">成功率を3倍にする極意</h2>
+                <div class="space-y-16">
+                    <div class="flex gap-8 items-start">
+                        <span class="w-12 h-12 rounded-full border border-accent text-accent flex items-center justify-center font-en font-bold shrink-0">01</span>
+                        <div>
+                            <h3 class="font-bold text-xl mb-4">「3つ全て」に登録して比較する</h3>
+                            <p class="text-white/60 text-sm leading-relaxed">
+                                地域によってどのサイトにアクティブな女性が多いかは異なります。全て「無料ポイント」がもらえるため、まずは3つ全てに登録し、自分の近所にいる女性の顔ぶれを無料でチェックするのが最も効率的な「正解」です。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex gap-8 items-start">
+                        <span class="w-12 h-12 rounded-full border border-accent text-accent flex items-center justify-center font-en font-bold shrink-0">02</span>
+                        <div>
+                            <h3 class="font-bold text-xl mb-4">年齢確認を最短で終わらせる</h3>
+                            <p class="text-white/60 text-sm leading-relaxed">
+                                法律によりメッセージ交換には年齢確認が必須です。これを後回しにすると「無料ポイント」も受け取れず、女性側からも「不審なユーザー」と思われてしまいます。登録直後の5分で完了させるのが鉄則です。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="flex gap-8 items-start">
+                        <span class="w-12 h-12 rounded-full border border-accent text-accent flex items-center justify-center font-en font-bold shrink-0">03</span>
+                        <div>
+                            <h3 class="font-bold text-xl mb-4">プロフィール写真は「清潔感」重視</h3>
+                            <p class="text-white/60 text-sm leading-relaxed">
+                                20代〜30代の女性は清潔感を最も重視します。自撮りよりも、他人に撮ってもらった自然な笑顔の写真を設定するだけで、マッチング率は劇的に向上します。
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Final CTA Section -->
+    <section class="py-24 sm:py-40 text-center bg-white relative overflow-hidden">
+        <div class="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[800px] bg-sub/10 rounded-full blur-[120px] -z-10"></div>
+        
+        <div class="max-w-7xl mx-auto px-6 reveal">
+            <h2 class="h2-fluid font-serif font-bold mb-8">出会いの質は、選択で決まる。</h2>
+            <p class="text-textSub mb-16 max-w-xl mx-auto">
+                2026年、最も出会える確度が高いのはPCMAXです。まずは下のボタンから無料特典（ポイント）を受け取り、今夜のパートナーを探してみませんか？
+            </p>
+            <div class="flex flex-col items-center">
+                <a href="https://px.a8.net/svt/ejp?a8mat=4B9YLA+5OT6F6+YQK+60H7L" target="_blank" rel="noopener noreferrer" class="cta-button bg-accent text-white px-16 py-7 rounded-full h2-fluid font-bold shadow-2xl shadow-accent/30">
+                    PCMAXを無料で始める
+                </a>
+                <p class="text-[10px] text-textSub mt-10 uppercase tracking-[0.4em] font-bold">
+                    ※18歳未満の方はご利用いただけません
                 </p>
             </div>
-
-            <!-- Table Container (Horizontal Scrollable for Mobile) -->
-            <div class="bg-white rounded-3xl shadow-lg border border-borderSoft overflow-hidden reveal-element">
-                <div class="overflow-x-auto">
-                    <table class="w-full text-left border-collapse min-w-[640px]">
-                        <thead>
-                            <tr class="bg-bgSub border-b border-borderSoft text-xs sm:text-sm font-bold text-textMain">
-                                <th class="p-4 sm:p-5">サイト名</th>
-                                <th class="p-4 sm:p-5">総合評価</th>
-                                <th class="p-4 sm:p-5">主要年齢層</th>
-                                <th class="p-4 sm:p-5">初回無料特典</th>
-                                <th class="p-4 sm:p-5">出会いのスピード</th>
-                                <th class="p-4 sm:p-5 text-center">公式サイト</th>
-                            </tr>
-                        </thead>
-                        <tbody class="divide-y divide-borderSoft text-xs sm:text-sm">
-                            <tr class="hover:bg-bgSub/40 transition-colors">
-                                <td class="p-4 sm:p-5 font-bold text-textMain">
-                                    <div class="flex items-center gap-2">
-                                        <span class="w-5 h-5 rounded-full bg-accentGold text-white text-[10px] flex items-center justify-center font-bold">1</span>
-                                        ハッピーメール
-                                    </div>
-                                </td>
-                                <td class="p-4 sm:p-5 text-accentGold font-bold">★ 4.9</td>
-                                <td class="p-4 sm:p-5 text-textMuted">20代〜30代前半</td>
-                                <td class="p-4 sm:p-5 font-bold text-accentCoral">最大 120PT</td>
-                                <td class="p-4 sm:p-5 text-emerald-600 font-bold">⚡ 即日〜数日</td>
-                                <td class="p-4 sm:p-5 text-center">
-                                    <a href="https://example.com/happymail" target="_blank" rel="noopener noreferrer" 
-                                       class="inline-block px-4 py-2 rounded-xl bg-accentCoral text-white text-xs font-bold hover:bg-accentCoralHover transition-colors shadow-sm">
-                                        詳細を見る
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr class="hover:bg-bgSub/40 transition-colors">
-                                <td class="p-4 sm:p-5 font-bold text-textMain">
-                                    <div class="flex items-center gap-2">
-                                        <span class="w-5 h-5 rounded-full bg-slate-400 text-white text-[10px] flex items-center justify-center font-bold">2</span>
-                                        ワクワクメール
-                                    </div>
-                                </td>
-                                <td class="p-4 sm:p-5 text-accentGold font-bold">★ 4.7</td>
-                                <td class="p-4 sm:p-5 text-textMuted">20代中盤〜30代</td>
-                                <td class="p-4 sm:p-5 font-bold text-accentCoral">50PT</td>
-                                <td class="p-4 sm:p-5 text-emerald-600 font-bold">⚡ スムーズ</td>
-                                <td class="p-4 sm:p-5 text-center">
-                                    <a href="https://example.com/wakuwaku" target="_blank" rel="noopener noreferrer" 
-                                       class="inline-block px-4 py-2 rounded-xl bg-accentOlive text-white text-xs font-bold hover:bg-slate-700 transition-colors shadow-sm">
-                                        詳細を見る
-                                    </a>
-                                </td>
-                            </tr>
-                            <tr class="hover:bg-bgSub/40 transition-colors">
-                                <td class="p-4 sm:p-5 font-bold text-textMain">
-                                    <div class="flex items-center gap-2">
-                                        <span class="w-5 h-5 rounded-full bg-amber-700 text-white text-[10px] flex items-center justify-center font-bold">3</span>
-                                        華の会メール
-                                    </div>
-                                </td>
-                                <td class="p-4 sm:p-5 text-accentGold font-bold">★ 4.5</td>
-                                <td class="p-4 sm:p-5 text-textMuted">30代〜50代</td>
-                                <td class="p-4 sm:p-5 font-bold text-accentCoral">100PT</td>
-                                <td class="p-4 sm:p-5 text-textMuted font-medium">じっくり</td>
-                                <td class="p-4 sm:p-5 text-center">
-                                    <a href="https://example.com/hananokai" target="_blank" rel="noopener noreferrer" 
-                                       class="inline-block px-4 py-2 rounded-xl bg-stone-700 text-white text-xs font-bold hover:bg-stone-800 transition-colors shadow-sm">
-                                        詳細を見る
-                                    </a>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
         </div>
     </section>
 
-    <!-- Purpose Selector Section -->
-    <section id="purpose" class="py-16 sm:py-24 bg-bgSub/40">
-        <div class="max-w-5xl mx-auto px-4 sm:px-6">
-            <div class="text-center max-w-2xl mx-auto mb-12 reveal-element">
-                <span class="text-xs font-en tracking-widest text-accentCoral font-bold uppercase block mb-2">MATCHING NAVIGATOR</span>
-                <h2 class="text-2xl sm:text-3xl font-serif font-bold text-textMain">
-                    あなたの目的・好みで選ぶクイック案内
-                </h2>
-                <p class="text-textMuted text-sm mt-2">求めている出会いのスタイルに合わせて選ぶのが成功の近道です。</p>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-
-                <!-- Card 1 -->
-                <div class="bg-white p-6 rounded-3xl border border-borderSoft shadow-sm space-y-4 reveal-element flex flex-col justify-between">
-                    <div class="space-y-4">
-                        <div class="w-12 h-12 rounded-2xl bg-rose-100 text-accentCoral flex items-center justify-center font-bold text-xl">
-                            🔥
-                        </div>
-                        <h3 class="font-serif font-bold text-lg text-textMain">とにかく今すぐ・即日会いたい！</h3>
-                        <p class="text-xs text-textMuted leading-relaxed">
-                            圧倒的なアクティブユーザー数と募集掲示板の活性度で選ぶなら一択。今夜のご飯相手や休日デートの相手がすぐ見つかります。
-                        </p>
-                    </div>
-                    <div class="pt-4 border-t border-borderSoft">
-                        <div class="text-xs font-bold text-accentCoral mb-2">イチオシ：ハッピーメール</div>
-                        <a href="https://example.com/happymail" target="_blank" rel="noopener noreferrer" class="block w-full text-center py-2.5 rounded-xl bg-accentCoral text-white text-xs font-bold hover:bg-accentCoralHover transition-colors">
-                            ハッピーメールを試す
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Card 2 -->
-                <div class="bg-white p-6 rounded-3xl border border-borderSoft shadow-sm space-y-4 reveal-element flex flex-col justify-between">
-                    <div class="space-y-4">
-                        <div class="w-12 h-12 rounded-2xl bg-emerald-100 text-emerald-600 flex items-center justify-center font-bold text-xl">
-                            🛡️
-                        </div>
-                        <h3 class="font-serif font-bold text-lg text-textMain">業者・サクラなしの安全重視！</h3>
-                        <p class="text-xs text-textMuted leading-relaxed">
-                            セルフィー認証（顔写真確認）など徹底したセキュリティ対策。サクラや業者に邪魔されず、安全でおしゃれに恋活したい方向け。
-                        </p>
-                    </div>
-                    <div class="pt-4 border-t border-borderSoft">
-                        <div class="text-xs font-bold text-accentOlive mb-2">イチオシ：ワクワクメール</div>
-                        <a href="https://example.com/wakuwaku" target="_blank" rel="noopener noreferrer" class="block w-full text-center py-2.5 rounded-xl bg-accentOlive text-white text-xs font-bold hover:bg-slate-700 transition-colors">
-                            ワクワクメールを試す
-                        </a>
-                    </div>
-                </div>
-
-                <!-- Card 3 -->
-                <div class="bg-white p-6 rounded-3xl border border-borderSoft shadow-sm space-y-4 reveal-element flex flex-col justify-between">
-                    <div class="space-y-4">
-                        <div class="w-12 h-12 rounded-2xl bg-amber-100 text-amber-700 flex items-center justify-center font-bold text-xl">
-                            ☕
-                        </div>
-                        <h3 class="font-serif font-bold text-lg text-textMain">30代〜50代の大人の落ち着いた出会い</h3>
-                        <p class="text-xs text-textMuted leading-relaxed">
-                            若者の軽いノリが苦手な方におすすめ。落ち着いた雰囲気の中で、価値観の合うパートナーや結婚を見据えた恋活ができます。
-                        </p>
-                    </div>
-                    <div class="pt-4 border-t border-borderSoft">
-                        <div class="text-xs font-bold text-stone-700 mb-2">イチオシ：華の会メール</div>
-                        <a href="https://example.com/hananokai" target="_blank" rel="noopener noreferrer" class="block w-full text-center py-2.5 rounded-xl bg-stone-700 text-white text-xs font-bold hover:bg-stone-800 transition-colors">
-                            華の会メールを試す
-                        </a>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Beginner Safety Guide Section -->
-    <section id="guide" class="py-16 sm:py-24 bg-bgMain">
-        <div class="max-w-5xl mx-auto px-4 sm:px-6">
-            <div class="text-center max-w-2xl mx-auto mb-12 reveal-element">
-                <span class="text-xs font-en tracking-widest text-accentCoral font-bold uppercase block mb-2">SAFETY GUIDE</span>
-                <h2 class="text-2xl sm:text-3xl font-serif font-bold text-textMain">
-                    失敗しない！初心者のための安全活用法
-                </h2>
-                <p class="text-textMuted text-sm mt-2">出会い系サイトを安全かつお得に使いこなす3つのポイントを解説。</p>
-            </div>
-
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 reveal-element">
-                <!-- Step 1 -->
-                <div class="bg-bgCard p-6 rounded-3xl border border-borderSoft relative space-y-3">
-                    <span class="text-4xl font-en font-bold text-accentGold/30 absolute top-4 right-6">01</span>
-                    <h3 class="font-serif font-bold text-base text-textMain">年齢確認はサクッと済ませる</h3>
-                    <p class="text-xs text-textMuted leading-relaxed">
-                        大手優良サイトは法律に基づき18歳以上の確認が義務付けられています。免許証や保険証の生年月日部分のみを送信すれば1〜2分で完了し、無料ポイントが付与されます。
-                    </p>
-                </div>
-
-                <!-- Step 2 -->
-                <div class="bg-bgCard p-6 rounded-3xl border border-borderSoft relative space-y-3">
-                    <span class="text-4xl font-en font-bold text-accentGold/30 absolute top-4 right-6">02</span>
-                    <h3 class="font-serif font-bold text-base text-textMain">無料ポイント内でやり取りしてみる</h3>
-                    <p class="text-xs text-textMuted leading-relaxed">
-                        初回登録時にもらえる無料ポイント（最大1,200円分など）だけでも数人とのメッセージ交換が可能です。まずは課金せずにサイトの雰囲気や相手の反応を確かめましょう。
-                    </p>
-                </div>
-
-                <!-- Step 3 -->
-                <div class="bg-bgCard p-6 rounded-3xl border border-borderSoft relative space-y-3">
-                    <span class="text-4xl font-en font-bold text-accentGold/30 absolute top-4 right-6">03</span>
-                    <h3 class="font-serif font-bold text-base text-textMain">業者・怪しいアカウントの見分け方</h3>
-                    <p class="text-xs text-textMuted leading-relaxed">
-                        「すぐにLINE交換を求めてくる」「外部サイトのURLを送ってくる」「モデル級の写真1枚のみ」といった相手はスルー。プロフィール文章が自然な一般人を選びましょう。
-                    </p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- FAQ Section -->
-    <section id="faq" class="py-16 sm:py-24 bg-bgSub/60 border-t border-borderSoft">
-        <div class="max-w-4xl mx-auto px-4 sm:px-6">
-            <div class="text-center max-w-2xl mx-auto mb-12 reveal-element">
-                <span class="text-xs font-en tracking-widest text-accentCoral font-bold uppercase block mb-2">FAQ</span>
-                <h2 class="text-2xl sm:text-3xl font-serif font-bold text-textMain">
-                    よくある質問
-                </h2>
-            </div>
-
-            <div class="space-y-4 reveal-element">
-
-                <div class="bg-bgCard rounded-2xl border border-borderSoft overflow-hidden shadow-sm">
-                    <button class="w-full p-5 text-left font-bold text-sm sm:text-base text-textMain flex justify-between items-center faq-toggle hover:bg-bgSub/30 transition-colors">
-                        <span>Q. 身バレ（友達や職場にバレるの）が心配です。</span>
-                        <svg class="w-5 h-5 text-textMuted transform transition-transform duration-200 faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-                    </button>
-                    <div class="faq-answer px-5 pb-5 text-xs sm:text-sm text-textMuted leading-relaxed border-t border-borderSoft/40 pt-3">
-                        完全匿名でニックネーム利用が可能です。電話番号や本名、メールアドレスが他のユーザーに公開されることは一切ありません。また、サブ写真のみ公開する設定やシークレットモードも利用できます。
-                    </div>
-                </div>
-
-                <div class="bg-bgCard rounded-2xl border border-borderSoft overflow-hidden shadow-sm">
-                    <button class="w-full p-5 text-left font-bold text-sm sm:text-base text-textMain flex justify-between items-center faq-toggle hover:bg-bgSub/30 transition-colors">
-                        <span>Q. 本当にサクラはいませんか？</span>
-                        <svg class="w-5 h-5 text-textMuted transform transition-transform duration-200 faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-                    </button>
-                    <div class="faq-answer px-5 pb-5 text-xs sm:text-sm text-textMuted leading-relaxed border-t border-borderSoft/40 pt-3">
-                        今回紹介している大手老舗3サイト（ハッピーメール・ワクワクメール・華の会メール）はポイント消費を誘導するような「運営が雇うサクラ」は存在しません。24時間365日体制で外部業者などの悪質アカウントを排除監視しています。
-                    </div>
-                </div>
-
-                <div class="bg-bgCard rounded-2xl border border-borderSoft overflow-hidden shadow-sm">
-                    <button class="w-full p-5 text-left font-bold text-sm sm:text-base text-textMain flex justify-between items-center faq-toggle hover:bg-bgSub/30 transition-colors">
-                        <span>Q. 女性は本当に完全無料で使えますか？</span>
-                        <svg class="w-5 h-5 text-textMuted transform transition-transform duration-200 faq-icon" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path></svg>
-                    </button>
-                    <div class="faq-answer px-5 pb-5 text-xs sm:text-sm text-textMuted leading-relaxed border-t border-borderSoft/40 pt-3">
-                        はい。本記事で紹介したサイトは女性完全無料です。会員検索・メッセージ送信・プロフィール閲覧などすべての機能を料金なしで安心してご利用いただけます。
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <!-- Mobile Fixed CTA Bottom Bar -->
-    <div class="fixed bottom-0 left-0 right-0 z-40 bg-white/95 backdrop-blur-md border-t border-borderSoft p-3 md:hidden shadow-2xl">
-        <div class="flex items-center justify-between gap-3 max-w-md mx-auto">
-            <div class="text-xs">
-                <span class="font-bold text-textMain block">1位：ハッピーメール</span>
-                <span class="text-accentCoral text-[10px] font-bold">最大120PT無料プレゼント</span>
-            </div>
-            <a href="https://example.com/happymail" target="_blank" rel="noopener noreferrer" class="px-5 py-2.5 rounded-xl bg-accentCoral text-white font-bold text-xs shadow-md active:scale-95 transition-all">
-                無料で始める
-            </a>
-        </div>
-    </div>
-
-    <!-- Footer Section -->
-    <footer class="bg-textMain text-bgSub py-12 border-t border-borderSoft">
-        <div class="max-w-6xl mx-auto px-4 sm:px-6 space-y-6 text-center text-xs text-textMuted">
-            <div class="flex justify-center items-center gap-2">
-                <span class="w-6 h-6 rounded-full bg-accentCoral flex items-center justify-center text-white font-en font-bold text-xs">M</span>
-                <span class="font-serif font-bold text-base text-white tracking-tight">Match Guide</span>
-            </div>
-
-            <p class="max-w-2xl mx-auto leading-relaxed text-[11px] opacity-80">
-                【免責事項・ご注意】<br>
-                当Webサイトは18歳未満（高校生含む）の方のご利用はお控えください。紹介しているマッチングサイトはすべてインターネット異性紹介事業届出済みの公認優良サービスです。各サイトの利用規約を守り、マナーを持ってご利用ください。
+    <!-- Footer -->
+    <footer class="py-20 bg-base border-t border-borderLight">
+        <div class="max-w-7xl mx-auto px-6 text-center">
+            <div class="font-serif font-bold text-2xl mb-6">MatchExpert.</div>
+            <p class="text-[10px] text-textSub leading-loose max-w-2xl mx-auto mb-12">
+                当サイトは出会い系サイトの利用を推奨していますが、利用規約の遵守と自己責任のもとでのご利用をお願いしております。<br>
+                18歳未満および高校生の利用は法律で禁じられています。掲載情報は執筆時点の調査に基づくものであり、最新の仕様や「無料ポイント」の詳細は各公式サイトをご確認ください。
             </p>
-
-            <div class="pt-4 border-t border-white/10 text-[10px] opacity-60">
-                &copy; 2026 Match Guide. All rights reserved.
+            <div class="pt-12 border-t border-borderLight text-[10px] text-textSub font-en tracking-widest uppercase">
+                &copy; 2026 MATCHEXPERT REPORT. ALL RIGHTS RESERVED.
             </div>
         </div>
     </footer>
 
-    <!-- Interactive JavaScript -->
+    <!-- Scripts -->
     <script>
         document.addEventListener('DOMContentLoaded', () => {
-            // Scroll Reveal Animation (Intersection Observer)
-            const revealElements = document.querySelectorAll('.reveal-element');
             const observerOptions = {
                 root: null,
-                rootMargin: '0px 0px -50px 0px',
+                rootMargin: '0px 0px -10% 0px',
                 threshold: 0.1
             };
 
-            const revealObserver = new IntersectionObserver((entries, observer) => {
+            const observer = new IntersectionObserver((entries) => {
                 entries.forEach(entry => {
                     if (entry.isIntersecting) {
-                        entry.target.classList.add('is-visible');
-                        observer.unobserve(entry.target);
+                        entry.target.classList.add('visible');
                     }
                 });
             }, observerOptions);
 
-            revealElements.forEach(el => revealObserver.observe(el));
-
-            // FAQ Accordion Toggle
-            const faqToggles = document.querySelectorAll('.faq-toggle');
-            faqToggles.forEach(toggle => {
-                toggle.addEventListener('click', () => {
-                    const answer = toggle.nextElementSibling;
-                    const icon = toggle.querySelector('.faq-icon');
-
-                    const isOpen = answer.classList.contains('open');
-
-                    // Close all FAQs
-                    document.querySelectorAll('.faq-answer').forEach(a => a.classList.remove('open'));
-                    document.querySelectorAll('.faq-icon').forEach(i => i.style.transform = 'rotate(0deg)');
-
-                    // Toggle current FAQ
-                    if (!isOpen) {
-                        answer.classList.add('open');
-                        icon.style.transform = 'rotate(180deg)';
-                    }
-                });
-            });
+            document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
         });
     </script>
 </body>
